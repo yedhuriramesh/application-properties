@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    enabled-by-default: true
+    health:
+      show-details: always
+      show-components: always
+    web:
+      exposure:
+        include: '*'
